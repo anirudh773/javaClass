@@ -2,7 +2,7 @@ public class BuyAndSell {
 
     public int maxProfit(int[] prices) {
         
-        // { T(n) = O(n^2)}
+        // { T(n) = O(n)}
 
         int maxProfit = 0;
         int min = prices[0];
