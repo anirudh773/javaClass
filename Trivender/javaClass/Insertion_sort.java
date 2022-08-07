@@ -32,6 +32,7 @@ public class Insertion_sort {
 			arr[j] = temp;
 
 		}
+
 	}
 
 }
