@@ -13,5 +13,6 @@ public class Int_sum {
             m = m / 10;
         }
         System.out.println(sum);
+        sc.close();
     }
 }
