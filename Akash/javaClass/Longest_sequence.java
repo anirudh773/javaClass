@@ -8,7 +8,6 @@ public class Longest_sequence {
 		// TODO Auto-generated method stub
 		
 		int [] arr = {100,4,200,1,3,2};
-		
 		System.out.println(longest(arr));
 
 	}

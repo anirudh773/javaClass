@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Roman_Int {
     public int romanToInt(String s) {
-        Map<Character,Integer> m = new HashMap();
+        Map<Character,Integer> m = new HashMap<>();
         m.put('I',1);
         m.put('V',5);
         m.put('X',10);

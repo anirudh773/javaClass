@@ -18,5 +18,7 @@ public class Power {
         int y = sc.nextInt();
 
         System.out.println(power(x, y));
+        
+    sc.close();
     }
 }

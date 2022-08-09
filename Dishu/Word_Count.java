@@ -16,5 +16,7 @@ class Codechef {
         ct++;
 
         System.out.println("Total number of words in the string: " + ct);
+        
+    sc.close();
     }
 }
