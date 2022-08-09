@@ -42,13 +42,15 @@ class StackUsingLinkedlist {
         }
     }
   
-    public void pop()
+    public int pop()
     {
         if (top == null) {
             System.out.print("\nStack Underflow");
-            return;
+            return 0;
         }
+        int x = top.data;
         top = (top).link;
+        return x;
     }
   
     public void display()
