@@ -1,11 +1,17 @@
-public class Good_pairs {
-    public int numIdenticalPairs(int[] nums) {
-        int arr[] = new int[200];
-        int ct = 0;
-        for (int i : nums)
-            ct += arr[i]++;
-        return ct;
+class Solution {
 
+    public int numIdenticalPairs(int[] nums) {
+        int n = nums.length;
+        int ct = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (nums[i] == nums[j]) {
+                    ct++;
+                }
+            }
+        }
+
+        return ct;
     }
 
 }

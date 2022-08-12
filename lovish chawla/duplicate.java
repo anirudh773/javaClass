@@ -1,5 +1,3 @@
-package lovish chawla;
-
 class Solution {
     public int findDuplicate(int[] nums) {
         Arrays.sort(nums);
@@ -11,5 +9,5 @@ class Solution {
         }
         return 0;
     }
-    
+
 }
