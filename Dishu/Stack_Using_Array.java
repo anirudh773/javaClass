@@ -42,6 +42,7 @@ class Stack {
         top--;
         return del;
     }
+
     // for top element in stack
     int top() {
         if (top == -1) {
@@ -64,12 +65,16 @@ public class Stack_Using_Array {
         s.push(99);
         s.push(3);
         s.push(41);
-
+  
         s.traverse();
         System.out.println();
-     
+
+        System.out.println("The top element Before deleting is: " + s.pop());
+        
         s.pop();
         s.traverse();
+        System.out.println();
         
+        System.out.println("The top element after deleting is: " + s.pop());
     }
 }
