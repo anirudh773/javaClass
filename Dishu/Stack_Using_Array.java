@@ -69,12 +69,12 @@ public class Stack_Using_Array {
         s.traverse();
         System.out.println();
 
-        System.out.println("The top element Before deleting is: " + s.pop());
+        System.out.println("The top element Before deleting is: " + s.top());
         
         s.pop();
         s.traverse();
         System.out.println();
         
-        System.out.println("The top element after deleting is: " + s.pop());
+        System.out.println("The top element after deleting is: " + s.top());
     }
 }
